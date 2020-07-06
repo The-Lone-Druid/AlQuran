@@ -8,6 +8,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="dist/css/materialize.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="dist/css/main.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="dist/css/sizing.css" media="screen,projection" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,40 +25,7 @@
             <ul>
                 <li><a href="#side-menu" data-activates="side-nav" class="waves-effect waves-light menu-btn"><i
                             class="material-icons">menu</i></a></li>
-
-                <ul class="side-nav blue" id="side-nav">
-                    <li><a href="#" class="waves-effect waves-light center title">AlQuran</a></li>
-                    <div class="divider" style="margin-top: 10px;"></div>
-                    <li><a href="#home" class="waves-effect waves-light"><i class="left material-icons">home</i>
-                            Home</a></li>
-
-                    <li><a href="#quran" class="waves-effect waves-light"><i
-                                class="material-icons left">book</i>Read Quran</a></li>
-
-                    <li><a href="#blogs" class="waves-effect waves-light"><i class="left material-icons">dynamic_feed</i>
-                            Blogs</a></li>
-
-                    <li><a href="#Namaz-times" class="waves-effect waves-light"><i class="material-icons left">schedule</i>Prayer
-                            Times</a></li>
-
-                    <li><a href="#apps" class="waves-effect waves-light"><i class="left material-icons">phone_iphone</i> Our
-                            Apps</a></li>
-
-                    <li><a href="#contribute" class="waves-effect waves-light"><i class="left material-icons">monetization_on</i>
-                            Contribute</a></li>
-
-                    <li><a href="#developers" class="waves-effect waves-light"><i class="left material-icons">laptop_mac</i>
-                            Developers</a></li>
-
-                    <li><a href="#feedback" class="waves-effect waves-light"><i class="left material-icons">feedback</i>
-                            Feedback</a></li>
-
-                    <div class="divider"></div>
-
-                    <li><a href="#" class="center">Copyright &copy; 2020</a></li>
-                </ul>
-
-                <li><a href="#home" class="waves-effect waves-light"><i class="material-icons">home</i></a></li>
+                <li><a href="index.html" class="waves-effect waves-light"><i class="material-icons">home</i></a></li>
             </ul>
             <a href="#" class="brand-logo center">AlQuran</a>
             <ul class="right ">
@@ -67,6 +35,37 @@
             </ul>
         </div>
     </nav>
+    <ul class="side-nav blue" id="side-nav">
+        <li><a href="#" class="waves-effect waves-light center title">AlQuran</a></li>
+        <div class="divider" style="margin-top: 10px;"></div>
+        <li><a href="index.html" class="waves-effect waves-light"><i class="left material-icons">home</i>
+                Home</a></li>
+
+        <li><a href="surahs.html" class="waves-effect waves-light"><i
+                    class="material-icons left">book</i>Read Quran</a></li>
+
+        <li><a href="#blogs" class="waves-effect waves-light"><i class="left material-icons">dynamic_feed</i>
+                Blogs</a></li>
+
+        <li><a href="#Namaz-times" class="waves-effect waves-light"><i class="material-icons left">schedule</i>Prayer
+                Times</a></li>
+
+        <li><a href="#apps" class="waves-effect waves-light"><i class="left material-icons">phone_iphone</i> Our
+                Apps</a></li>
+
+        <li><a href="#contribute" class="waves-effect waves-light"><i class="left material-icons">monetization_on</i>
+                Contribute</a></li>
+
+        <li><a href="#developers" class="waves-effect waves-light"><i class="left material-icons">laptop_mac</i>
+                Developers</a></li>
+
+        <li><a href="#feedback" class="waves-effect waves-light"><i class="left material-icons">feedback</i>
+                Feedback</a></li>
+
+        <div class="divider"></div>
+
+        <li><a href="#" class="center">Copyright &copy; 2020</a></li>
+    </ul>
 
     <!--    NAV SECTION END     -->
 
@@ -76,18 +75,20 @@
 
     <!--    MAIN SECTION START     -->
 
-    <section class="blue white-text text-center main">
+    <main>
+
+    <section class="blue white-text text-center main pb-5">
 
         <img src="dist/images/quransvg.svg" alt="quranSvg" class="responsive-img">
 
         <div class="container white black-text surhas z-depth-2">
 
             <h4 class="title grey-text text-darken-2">
-                Surhas:
+                Surahs:
             </h4>
 
             <div class="row surhas-grid">
-                <a href="#!">
+                <a href="surahs.html">
                     <div class="col s12 xl4 waves-effect waves-blue">
                         <span class="left grey-text text-darken-2 srNo">1</span>
                         <span>Al Fatihah</span>
@@ -189,6 +190,39 @@
         </div>
 
     </section>
+    </main>
+
+
+    <div class="divider p-1"></div>
+
+    
+    <footer class="page-footer blue">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/koran--v1.png" alt="logo" class="left m-0">
+              <h5 class="white-text"> <span>AlQuran</span></h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
 
     <!--    MAIN SECTION END     -->
 
